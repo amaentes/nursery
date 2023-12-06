@@ -3,7 +3,7 @@ public class Pet extends Animal {
     private String name;
 
     public Pet(String type, String name) {
-        super();
+        super(type);
         this.name = name;
     }
 
@@ -11,3 +11,4 @@ public class Pet extends Animal {
         return name;
     }
 }
+

@@ -3,7 +3,7 @@ public class WorkingAnimal extends Animal {
     private String workType;
 
     public WorkingAnimal(String type, String workType) {
-        super();
+        super(type);
         this.workType = workType;
     }
 
@@ -11,3 +11,4 @@ public class WorkingAnimal extends Animal {
         return workType;
     }
 }
+
